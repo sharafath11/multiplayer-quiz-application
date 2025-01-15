@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# Dependency directories
+jspm_packages/
+
+# Build directories
+dist/
+build/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+
+# SASS/SCSS Cache
+.sass-cache/
+
+# NPM and Yarn lock files
+package-lock.json
+yarn.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Test directories
+tests/
+*.test.js
+
+# Temporary files created by the operating system
+*.swp
+# Ignore everything in the server folder
+server/*
+
+# Allow specific files and folders
+!server/server.js
+!server/config/
+!server/routes/
