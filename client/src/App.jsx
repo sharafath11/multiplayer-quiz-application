@@ -10,6 +10,7 @@ import QzEnter from "./pages/QzEnter";
 import { ToastContainer } from "react-toastify";
 import Ai from "./pages/Ai";
 import NoQuestionsPage from "./components/NoQuestionsPage";
+import MultyPlayer from "./pages/MultyPlayer";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Route path="/no-qustion" element={<NoQuestionsPage/>}/>
         <Route path="/categories" element={<CategoriesPage/>}/>
         <Route path="/leaderboard" element={<Leaderboard/>}/>
+        <Route path="/multiplayer" element={<MultyPlayer/>}/>
         <Route path="/RandomQzPage/:cat" element={token? <RandomQzPage/>:<LoginPage/>}/>
         <Route path="/RandomQz-start/:cat" element={token?<QzEnter/>:<LoginPage/>}/>
       </Routes>

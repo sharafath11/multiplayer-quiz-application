@@ -10,7 +10,6 @@ const parseJson = (json) => {
     return null;  
   }
 };
-
 const initialState = {
   user: storedUser ? parseJson(storedUser) : null,  
   token: storedToken ? storedToken : null,         

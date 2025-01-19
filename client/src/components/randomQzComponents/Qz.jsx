@@ -71,10 +71,9 @@ useEffect(()=>{
    setQuizData(data.
     questions
     )
-    if(quizData.length==0){
-      navigate('/no-qustion')
-    }
-   setLoading(false)
+  
+   setLoading(false);
+   
  }
   useEffect(() => {
     if (!isAnswered && !showResult) {
